@@ -3,7 +3,7 @@ import random
 secret_number = random.randint(1, 100)
 
 while True:
-    user_input = input("Guess the number (1-100) or 'q' to quit: ")
+    user_input = input("This is a woderful game Guess the number (1-100) or 'q' to quit: ")
 
     if user_input.lower() == "q":
         print(f"Game over! The number was {secret_number}.")
